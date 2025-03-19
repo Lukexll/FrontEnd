@@ -1,0 +1,232 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+nav h1{
+    display: block;
+    padding-right: 6px;
+    font-size:x-large;
+}
+
+nav ul li{
+    float: left;
+    padding: 6px;
+}
+
+.nav_options{
+    margin-top: 6px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 80px;
+}
+
+.header_text{
+    margin-top: 25px;
+}
+
+.header_title h1{
+    display: block;
+    font-size: 300%;
+}
+
+.header_subtitle{
+    word-wrap: break-word;
+    width: 300px;
+    margin-top: 40px;
+}
+
+.header_subtitle h2{
+    display: block;
+    font-size:larger;
+}
+
+.header_button button{
+    background-color:rgb(212, 64, 19);
+    color: white;
+    margin-top: 40px;
+    padding: 15px 25px;
+    
+}
+
+.header_image img{
+    width: 580px;
+    height: 380px;
+}
+
+.our_services{
+    display: flex;
+    justify-content: center;
+}
+
+.our_services h1{
+    display: block;
+    font-size: 200%;
+    margin-top: 100px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+}
+
+.services ul{
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 40px;
+}
+
+.services ul li{
+    float: left;
+    padding: 32px;
+}
+
+.services ul li img{
+    width: 300px;
+    height: 300px;
+}
+
+.services ul li h2{
+    display: block;
+    font-size: 150%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+.testimonials_title{
+    margin-top: 50px;
+    margin-left: 65px;
+}
+
+.testimonials_title h3{
+    font-size: 180%;
+}
+
+.testimonials_text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-left: 140px;
+}
+
+.testimonials_text ul li{
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin-right: 100px;
+}
+
+.testimonials_text ul li img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.perfil{
+    display: flex;
+    width: 400px;
+    height: 130px;
+}
+.perfil h3{
+    margin-top: 40px;
+    margin-left: -80px;
+}
+.perfil h4{
+    margin-left: -80px;
+}
+.learn_more{
+    margin-top: 100px;
+}
+.learn_more ul li{
+    display: flex;
+    justify-content: center;
+}
+.learn_more_title{
+    margin-bottom: 20px;
+}
+.learn_more_title h1{
+    font-size: 300%;
+}
+.learn_more_text h2{
+    word-wrap: break-word;
+    width: 300px;
+}
+.learn_more_button{
+    margin-top: 40px;
+}
+.learn_more_button button{
+    padding: 15px 25px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    margin-top: 100px;
+}
+.footer h1{
+    color: white;
+}
+.footer h2{
+    color: white;
+}
+.footer_text{
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.footer_text ul li{
+    margin-top: 20px;
+}
+.footer_text h2{
+    margin-top: 50px;
+}
+.footer_social{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.footer_social ul li{
+    float: left;
+    padding: 10px;
+}
+.footer_social ul li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.footer_contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    margin-right: 150px;
+}
+.footer_contact ul li{
+    margin-top: 15px;
+}
+.input1{
+    width: 300px;
+    height: 40px;
+}
+.input2{
+    width: 300px;
+    height: 100px;
+}
+.footer_contact button{
+    background-color:rgb(55, 54, 54);
+    color: white;
+    padding: 15px 25px;
+}
+
