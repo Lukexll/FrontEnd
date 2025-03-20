@@ -230,3 +230,94 @@ nav ul li{
     padding: 15px 25px;
 }
 
+/* Media Queries para tornar o design responsivo */
+@media screen and (max-width: 768px) {
+    /* Cabeçalho */
+    .header {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .header_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .services ul li {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .services ul li img {
+        width: 100%;
+        height: auto;
+    }
+
+    .testimonials_text {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .testimonials_text ul li {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_text {
+        margin-left: 0;
+    }
+
+    .footer_social {
+        margin-left: 0;
+    }
+
+    .footer_contact {
+        margin-right: 0;
+    }
+
+    /* Ajustando as imagens no rodapé */
+    .footer_social ul li img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Media Query para telas muito pequenas */
+@media screen and (max-width: 480px) {
+    .header_title h1 {
+        font-size: 200%;
+    }
+
+    .header_subtitle {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .learn_more_title h1 {
+        font-size: 200%;
+    }
+
+    .learn_more_text h2 {
+        width: 100%;
+    }
+
+    .footer h1,
+    .footer h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer_text {
+        margin-left: 0;
+    }
+
+    .footer_contact button {
+        padding: 12px 20px;
+    }
+}
