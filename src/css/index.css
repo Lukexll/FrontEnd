@@ -230,9 +230,8 @@ nav ul li{
     padding: 15px 25px;
 }
 
-/* Media Queries para tornar o design responsivo */
 @media screen and (max-width: 768px) {
-    /* Cabeçalho */
+
     .header {
         flex-direction: column;
         margin-left: 20px;
@@ -282,14 +281,12 @@ nav ul li{
         margin-right: 0;
     }
 
-    /* Ajustando as imagens no rodapé */
     .footer_social ul li img {
         width: 40px;
         height: 40px;
     }
 }
 
-/* Media Query para telas muito pequenas */
 @media screen and (max-width: 480px) {
     .header_title h1 {
         font-size: 200%;
